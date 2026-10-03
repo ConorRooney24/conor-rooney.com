@@ -3,3 +3,9 @@ body {
     font-family: "Geist", -apple-system, "Segoe UI", sans-serif;
     background-color: #09090a;
 }
+
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+    font-family: "Geist", -apple-system, "Segoe UI", sans-serif;
+    color: #f1f0ec;
+}
