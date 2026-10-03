@@ -120,6 +120,7 @@
 
 .hero-button-full > a {
     color: #09090a;
+    text-decoration: none;
 }
 
 .hero-button {
@@ -133,6 +134,7 @@
 
 .hero-button > a {
     color: #f1f0ec;
+    text-decoration: none;
 }
 
 .hero-demo {
