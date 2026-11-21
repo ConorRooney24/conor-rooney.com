@@ -4,6 +4,7 @@ register_css('components/action_link.css');
 
 require_once __DIR__ . '/svg_icon.php';
 
+// Takes an absolute path
 function cmp_action_link($text, $icon_path, $link) {
     ?>
 
