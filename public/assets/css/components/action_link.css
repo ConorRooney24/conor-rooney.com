@@ -1,0 +1,19 @@
+.cmp_action_link {
+    display: inline-flex;
+    width: fit-content;
+    height: 24px;
+    gap: 5px;
+    align-items: center;
+    color: var(--color-accent-1);
+}
+
+.cmp_action_link > span {
+    white-space: nowrap;
+    color: var(--color-accent-1);
+}
+
+.cmp_action_link > svg {
+    height: 70%;
+    stroke-width: 1.8;
+    transform: translateY(-1px);
+}
