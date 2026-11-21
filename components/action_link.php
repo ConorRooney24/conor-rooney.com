@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../helpers/css_registrar.php';
+register_css('components/action_link.css');
 
 require_once __DIR__ . '/svg_icon.php';
 
