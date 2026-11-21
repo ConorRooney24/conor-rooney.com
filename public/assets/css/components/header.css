@@ -8,11 +8,13 @@
 }
 
 .cmp_header__title {
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .cmp_header__title > h1 {
     margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
 }
 
 .cmp_header__nav {
@@ -30,5 +32,5 @@
 }
 
 .cmp_header__download {
-    margin-right: 40px;
+    margin-right: 80px;
 }
