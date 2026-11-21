@@ -1,0 +1,18 @@
+<?php
+
+include __DIR__ . '/svg_icon.php';
+
+function cmp_action_link($text, $icon_path, $link) {
+    ?>
+
+    <a class= "cmp_action_link" href="<?php echo htmlspecialchars($link) ?>">
+        <span><?php echo htmlspecialchars($text) ?></span>
+
+        <?php
+        cmp_svg_icon($icon_path)
+        ?>
+
+    </a>
+
+    <?php
+}
