@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . '/svg_icon.php';
+require_once __DIR__ . '/svg_icon.php';
 
 function cmp_action_link($text, $icon_path, $link) {
     ?>
