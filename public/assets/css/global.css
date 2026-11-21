@@ -14,7 +14,11 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: --var(--color-text-1);
+    color: var(--color-text-1);
+}
+
+p, a, span {
+    color: var(--color-text-2);
 }
 
 body {
@@ -23,7 +27,6 @@ body {
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
 a:hover {
