@@ -4,7 +4,6 @@
 // Takes an absolute path
 function cmp_svg_icon(string $path): void {
     if (!is_file($path)) {
-        echo "not file";
         return;
     }
 
