@@ -18,7 +18,7 @@ function cmp_header() {
         </ul>
     </nav>
 
-    <?php cmp_action_link('Download CV', '../public/assets/icons/icon_download.svg', 'cv.php'); ?>
+    <?php cmp_action_link('Download CV', '../public/assets/icons/icon_download.svg', 'cv.php', 'cmp_header__download'); ?>
 </header>
 <?php
 }
