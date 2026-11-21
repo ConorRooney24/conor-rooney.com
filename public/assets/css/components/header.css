@@ -1,14 +1,13 @@
 .cmp_header {
     display: flex;
-    width: 100%;
+    width: 1200px;
     background-color: var(--color-bg-1);
     justify-content: space-between;
     align-items: center;
     height: 80px;
-}
-
-.cmp_header__title {
-    margin-left: 80px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 54px;
 }
 
 .cmp_header__title > h1 {
@@ -29,8 +28,4 @@
     margin: 0;
     gap: 40px;
     align-items: center;
-}
-
-.cmp_header__download {
-    margin-right: 80px;
 }
