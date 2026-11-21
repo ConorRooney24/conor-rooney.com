@@ -2,10 +2,12 @@
 
 $registered_css = [];
 
+// Registered paths start at /public/assets/css/
+// So if you want to add the file /public/assets/css/components/button.css, you just do register_css('components/button.css');
 function register_css(string $path): void
 {
     global $registered_css;
-
+    $path = 'assets/css/' . $path;
     $registered_css[$path] = true;
 }
 
