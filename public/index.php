@@ -1,5 +1,8 @@
-<?php require_once __DIR__ . '/../helpers/css_registrar.php'; ?>
-<?php require_once __DIR__ . '/../components/header.php';?>
+<?php
+require_once __DIR__ . '/../helpers/css_registrar.php';
+register_css('global.css');
+require_once __DIR__ . '/../components/header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
