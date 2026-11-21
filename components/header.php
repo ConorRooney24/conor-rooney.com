@@ -5,10 +5,10 @@ require_once __DIR__ . '/action_link.php';
 
 function cmp_header() {
 ?>
-<header>
-    <a href="/index.php" class="header__title">Conor Rooney</a>
+<header class="cmp_header">
+    <a href="/index.php" class="cmp_header__title">Conor Rooney</a>
 
-    <nav>
+    <nav class="cmp_header__nav">
         <ul>
             <li><a href="projects.php">Projects</a></li>
             <li><a href="education.php">Education</a></li>
