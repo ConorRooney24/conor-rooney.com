@@ -14,7 +14,7 @@ function cmp_header() {
             <li><a href="education.php">Education</a></li>
             <li><a href="experience.php">Experience</a></li>
             <li><a href="skills.php">Skills</a></li>
-            <li><a href="contact.php">Sontact</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
 
