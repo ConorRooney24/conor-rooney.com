@@ -17,7 +17,7 @@
     transition: 0.1s ease-in;
 }
 
-.cmp-mobile-nav--menu .open {
+.open {
     opacity: 1;
     visibility: visible;
 }
