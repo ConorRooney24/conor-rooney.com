@@ -45,3 +45,13 @@
 .section-hero--side > p {
     font-size: 22px;
 }
+
+.section-projects {
+    margin-top: 54px;
+}
+
+.section-projects--title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
