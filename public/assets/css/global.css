@@ -72,3 +72,10 @@ a:hover {
 ul, ol {
     list-style: none;
 }
+
+@media (max-width: 1300px) {
+    main {
+        width: 92vw;
+    }
+
+}
