@@ -10,8 +10,6 @@
     text-decoration: none;
     justify-content: space-between;
     box-sizing: border-box;
-    padding-left: 0.7%;
-    padding-right: 0.7%;
     transition: 0.05s ease-out;
 }
 
@@ -20,6 +18,8 @@
     background-color: var(--color-bg-2);
     border-radius: 6px;
     border-bottom: 1px transparent solid;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
 }
 
 .cmp-project-entry-row:hover .cmp-project-entry-row-title {
