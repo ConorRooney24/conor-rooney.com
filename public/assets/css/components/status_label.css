@@ -1,0 +1,31 @@
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+}
+
+
+.cmp_status_label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cmp_status_label__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--color-accent-1);
+    flex-shrink: 0;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.cmp_status_label__text {
+    font-size: 14px;
+    color: var(--color-text-3);
+    letter-spacing: 2px;
+}
