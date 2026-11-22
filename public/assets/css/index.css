@@ -56,6 +56,13 @@
     justify-content: space-between;
 }
 
+.section-projects--action-link > svg {
+    stroke-width: 3;
+    height: 50%;
+    transform: translateX(-2px);
+    transform: translateY(-2px);
+}
+
 .section-education-experience {
     display: flex;
     width: 100%;
