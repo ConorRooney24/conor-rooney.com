@@ -14,7 +14,7 @@ function cmp_mobile_nav() {
     </ul>
 </nav>
 
-<div class="cmp-bobile-nav--button" id="cmp-mobile-nav--button">
+<div class="cmp-mobile-nav--button" id="cmp-mobile-nav--button">
     <span></span>
     <span></span>
     <span></span>
