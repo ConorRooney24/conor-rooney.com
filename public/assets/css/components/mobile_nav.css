@@ -63,6 +63,7 @@
 
 .cmp-mobile-nav--button span:nth-child(2) {
     min-width: 40px;
+    transition: 0.1s ease-in;
 }
 
 
