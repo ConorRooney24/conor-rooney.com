@@ -1,0 +1,50 @@
+.cmp-experience-card {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.05s ease-out;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.cmp-experience-card:hover {
+    background-color: var(--color-bg-2);
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    text-decoration: none;
+}
+
+
+.cmp-experience-card:hover .cmp-experience-card--title {
+    text-decoration: underline;
+}
+
+.cmp-experience-card--title {
+    margin-top: 0;
+}
+
+.cmp-experience-card--subtitle-date-bar {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cmp-experience-card--subtitle-date-bar > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+
+    color: var(--color-text-3);
+}
+
+.cmp-experience-card--subtitle {
+    font-weight: 600;
+}
+
+.cmp-experience-card--description {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
