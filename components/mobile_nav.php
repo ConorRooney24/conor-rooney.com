@@ -4,7 +4,7 @@ register_css('components/mobile_nav.css');
 
 function cmp_mobile_nav() {
 ?>
-<nav class="cmp-mobile-nav--menu">
+<nav class="cmp-mobile-nav--menu" id="cmp-mobile-nav--menu">
     <ul>
         <li><a href="projects.php">Projects</a></li>
         <li><a href="education.php">Education</a></li>
