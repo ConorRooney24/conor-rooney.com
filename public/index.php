@@ -6,6 +6,7 @@ require_once __DIR__ . '/../components/action_link.php';
 require_once __DIR__ . '/../components/status_label.php';
 require_once __DIR__ . '/../components/project_entry_row.php';
 require_once __DIR__ . '/../components/experience_card.php';
+require_once __DIR__ . '/../components/mobile_nav.php';
 register_css('index.css');
 ?>
 <!DOCTYPE html>
@@ -16,6 +17,7 @@ register_css('index.css');
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="description" content=""/>
     <?php generate_css_links(); ?>
+    <?php generate_js_scripts(); ?>
 </head>
 
 <body>
@@ -76,4 +78,6 @@ register_css('index.css');
             </section>
         </section>
     </main>
+
+    <?php cmp_mobile_nav() ?>
 </body>

@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/../helpers/css_registrar.php';
 register_css('components/mobile_nav.css');
+require_once __DIR__ . '/../helpers/js_registrar.php';
+register_js('mobile_nav.js');
 
 function cmp_mobile_nav() {
 ?>
