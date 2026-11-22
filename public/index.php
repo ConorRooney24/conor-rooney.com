@@ -1,10 +1,10 @@
 <?php
 require_once __DIR__ . '/../helpers/css_registrar.php';
 register_css('global.css');
-register_css('index.css');
 require_once __DIR__ . '/../components/header.php';
 require_once __DIR__ . '/../components/action_link.php';
 require_once __DIR__ . '/../components/status_label.php';
+register_css('index.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,8 +28,8 @@ require_once __DIR__ . '/../components/status_label.php';
                 <p>I'm a second year Computer Science student at Queen's University Belfast, with a strong interest in systems programming, low-level computing, and building practical software projects</p>
                 <div>
                     <?php
-                    cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/', '');
-                    cmp_action_link('Email', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/', '');
+                    cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', 'section-hero--main--action-link');
+                    cmp_action_link('Email', 'assets/icons/icon_arrow_up_right.svg', 'mailto:conor.disrupt739@passmail.net', 'section-hero--main--action-link');
                     ?>
                 </div>
             </div>

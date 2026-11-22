@@ -20,7 +20,19 @@
 
 .section-hero--main > div {
     display: flex;
-    gap: 24px;
+    gap: 38px;
+}
+
+.section-hero--main--action-link > span {
+    font-weight: 600;
+    color: var(--color-text-1);
+}
+
+.section-hero--main--action-link > svg {
+    stroke-width: 3;
+    height: 50%;
+    transform: translateX(-2px);
+    transform: translateY(-2px);
 }
 
 .section-hero--side {
