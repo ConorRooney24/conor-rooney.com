@@ -172,6 +172,18 @@
     .section-hero--main > div {
         padding-top: 18px;
     }
+
+    .section-projects--title-bar {
+        margin-bottom: 0.4em;
+    }
+
+    .section-projects--title-bar > h2 {
+        font-size: 1.6em !important;
+    }
+
+    .section-projects--action-link {
+        font-size: 1em !important;
+    }
 }
 
 
@@ -230,4 +242,19 @@
     .section-hero--main > p {
         font-size: 16px;
     }
+
+
+
+    .section-projects--title-bar {
+        margin-bottom: 0.4em;
+    }
+
+    .section-projects--title-bar > h2 {
+        font-size: 1.2em !important;
+    }
+
+    .section-projects--action-link {
+        font-size: 0.8em !important;
+    }
+
 }
