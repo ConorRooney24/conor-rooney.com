@@ -23,6 +23,10 @@
     gap: 38px;
 }
 
+.section-hero--main > div > .cmp-button-icon {
+    display: none;
+}
+
 .section-hero--main--action-link > span {
     font-weight: 600;
     color: var(--color-text-1);
@@ -115,4 +119,115 @@
     height: 50%;
     transform: translateX(-2px);
     transform: translateY(-2px);
+}
+
+
+@media (max-width: 1200px) {
+    .section-hero--main > h1 {
+        font-size: 50px;
+        margin-bottom: -10px;
+        letter-spacing: 1px;
+    }
+
+
+    .section-hero--main > p {
+        font-size: 20px;
+    }
+
+    .section-hero--main > span {
+        margin: 0;
+    }
+
+    .section-hero--side > p {
+        font-size: 20px;
+    }
+
+    .section-hero--side {
+        padding-left: 30px;
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .section-hero--side {
+        display: none;
+    }
+
+    .section-hero--main {
+        margin-right: 20vw;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .section-hero--main > div > .cmp-button-icon {
+        display: inline-flex;
+    }
+
+    .section-hero--main--action-link {
+        display: none;
+    }
+
+    .section-hero--main > div {
+        padding-top: 18px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .section-hero--main {
+        margin-right: 0;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .section-hero--main > h1 {
+        font-size: 40px;
+    }
+
+    .section-hero--main > p {
+        margin-top: 16px;
+        font-size: 18px;
+    }
+
+    .section-hero--main > div {
+        padding-top: 8px;
+    }
+
+    .section-hero--main > div > .cmp-button-icon {
+        font-size: 16px;
+    }
+
+    .cmp_status_label__text {
+        font-size: 12px;
+    }
+
+    .cmp_status_label__dot {
+        height: 6px;
+        width: 6px;
+        transform: translateY(-1px);
+    }
+
+    .cmp_status_label {
+        gap: 6px;
+        margin-bottom: 12px !important;
+    }
+
+    .cmp_status_label > span {
+        letter-spacing: 1px;
+    }
+}
+
+
+@media (max-width: 475px) {
+    .section-hero--main > h1 {
+        font-size: 30px;
+    }
+
+    .section-hero--main > p {
+        font-size: 16px;
+    }
 }

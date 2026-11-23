@@ -7,6 +7,7 @@ require_once __DIR__ . '/../components/status_label.php';
 require_once __DIR__ . '/../components/project_entry_row.php';
 require_once __DIR__ . '/../components/experience_card.php';
 require_once __DIR__ . '/../components/mobile_nav.php';
+require_once __DIR__ . '/../components/button_icon.php';
 register_css('index.css');
 ?>
 <!DOCTYPE html>
@@ -34,6 +35,7 @@ register_css('index.css');
                     <?php
                     cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', 'section-hero--main--action-link');
                     cmp_action_link('Email', 'assets/icons/icon_arrow_up_right.svg', 'mailto:conor.disrupt739@passmail.net', 'section-hero--main--action-link');
+                    cmp_button_icon('assets/icons/icon_download.svg', 'Download CV', '/cv.php');
                     ?>
                 </div>
             </div>
