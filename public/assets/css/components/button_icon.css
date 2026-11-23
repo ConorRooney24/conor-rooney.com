@@ -1,0 +1,37 @@
+.cmp-button-icon {
+    display: inline-flex;
+    margin: 0;
+    gap: 10px;
+    align-items: center;
+    height: min-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 0px;
+    border-radius: 9999px;
+    background-color: var(--color-accent-2);
+    color: var(--color-bg-1);
+    transition: 0.1s ease-in;
+}
+
+.cmp-button-icon:hover {
+    text-decoration: none;
+    background-color: var(--color-accent-3);
+}
+
+
+.cmp-button-icon > p {
+    white-space: nowrap;
+    margin: 0;
+    font-weight: 600;
+    color: var(--color-bg-1);
+}
+
+
+.cmp-button-icon > svg {
+    aspect-ratio: 1 / 1;
+    height: 0.8em;
+    width: auto;
+    stroke-width: 3;
+}
