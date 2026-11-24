@@ -1,4 +1,5 @@
 .cmp-experience-card {
+    container-type: inline-size;
     display: inline-flex;
     flex-direction: column;
     width: 100%;
@@ -40,10 +41,11 @@
 .cmp-experience-card--title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .cmp-experience-card--subtitle-date-bar {
+    container-type: inline-size;
     display: inline-flex;
     width: 100%;
     align-items: center;
@@ -55,8 +57,16 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 0.8em !important;
-
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: var(--color-text-3);
+}
+
+.cmp-experience-card--date {
+    margin-left: 1em;
+    overflow: initial !important;
+    text-overflow: initial !important;
 }
 
 .cmp-experience-card--subtitle {
@@ -66,4 +76,27 @@
 .cmp-experience-card--description {
     margin-top: 0.55em;
     margin-bottom: 0;
+}
+
+@container (width < 20em) {
+    .cmp-experience-card--title {
+        font-size: 1em;
+    }
+
+
+    .cmp-experience-card--subtitle-date-bar {
+        font-size: 0.85em;
+    }
+
+    .cmp-experience-card--description {
+        font-size: 0.9em;
+    }
+}
+
+
+@container (width < 14em) {
+    .cmp-experience-card--date {
+        display: none;
+    }
+
 }
