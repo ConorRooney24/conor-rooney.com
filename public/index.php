@@ -69,7 +69,7 @@ register_css('index.css');
             </section>
 
             <section class="section-experience">
-                <?php cmp_section_title_bar(title: 'Eperience', large_icon: 'assets/icons/icon_arrow_up_right.svg', large_text: 'All Experience', medium_text: 'Experience', small_text: 'All') ?>
+                <?php cmp_section_title_bar(title: 'Experience', large_icon: 'assets/icons/icon_arrow_up_right.svg', large_text: 'All Experience', medium_text: 'Experience', small_text: 'All') ?>
 
                 <?php cmp_experience_card('Electronic Repairs Technician', 'Freelance', '2021 - Present', 'Experience with Diagnosing and Repairing Hardware.', '/education.php') ?>
                 <?php cmp_experience_card('IT Support Technician', 'SRC Newry East Campus', '2025', 'Offering IT Support to 15+ Team Members Daily.', '/education.php') ?>
