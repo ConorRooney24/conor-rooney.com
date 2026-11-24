@@ -8,6 +8,7 @@ require_once __DIR__ . '/../components/project_entry_row.php';
 require_once __DIR__ . '/../components/experience_card.php';
 require_once __DIR__ . '/../components/mobile_nav.php';
 require_once __DIR__ . '/../components/button_icon.php';
+require_once __DIR__ . '/../components/section_title_bar.php';
 register_css('index.css');
 ?>
 <!DOCTYPE html>
@@ -49,10 +50,7 @@ register_css('index.css');
         </section>
 
         <section class="section-projects">
-            <div class="section-projects--title-bar section-title-bar">
-                <h2>Selected Projects</h2>
-                <?php cmp_action_link('All Projects', 'assets/icons/icon_arrow_up_right.svg', '/projects.php', 'section-projects--action-link') ?>
-            </div>
+            <?php cmp_section_title_bar(title: 'Selected Projects', large_icon: 'assets/icons/icon_arrow_up_right.svg', large_text: 'All Projects', medium_text: 'Projects', small_text: 'All') ?>
 
             <div class="section-projects--table">
                 <?php cmp_project_entry_row('01', 'Ardan Engine', 'CPU-Based 3D voxel ray-casting engine', 'C - Python - SDL2 - pthreads', '/projects.php', 'section-projects--table--01') ?>
@@ -64,20 +62,14 @@ register_css('index.css');
         <section class="section-education-experience">
 
             <section class="section-education">
-                <div class="section-education--title-bar section-title-bar">
-                    <h2>Education</h2>
-                    <?php cmp_action_link('All Education', 'assets/icons/icon_arrow_up_right.svg', '/education.php', 'section-education--action-link') ?>
-                </div>
+                <?php cmp_section_title_bar(title: 'Education', large_icon: 'assets/icons/icon_arrow_up_right.svg', large_text: 'All Education', medium_text: 'Education', small_text: 'All') ?>
 
                 <?php cmp_experience_card('Queen\'s University Belfast', 'BSc Computer Science', '2025 - 2029', 'First Class Results in First Year', '/education.php') ?>
                 <?php cmp_experience_card('Southern Regional College', 'Level 3 National Extended Diploma in IT', '2023 - 2025', 'Top Marks Equivalent to A*A*A* at A-Level', '/education.php') ?>
             </section>
 
             <section class="section-experience">
-                <div class="section-experience--title-bar section-title-bar">
-                    <h2>Experience</h2>
-                    <?php cmp_action_link('All Experience', 'assets/icons/icon_arrow_up_right.svg', '/experience.php', 'section-experience--action-link') ?>
-                </div>
+                <?php cmp_section_title_bar(title: 'Eperience', large_icon: 'assets/icons/icon_arrow_up_right.svg', large_text: 'All Experience', medium_text: 'Experience', small_text: 'All') ?>
 
                 <?php cmp_experience_card('Electronic Repairs Technician', 'Freelance', '2021 - Present', 'Experience with Diagnosing and Repairing Hardware.', '/education.php') ?>
                 <?php cmp_experience_card('IT Support Technician', 'SRC Newry East Campus', '2025', 'Offering IT Support to 15+ Team Members Daily.', '/education.php') ?>

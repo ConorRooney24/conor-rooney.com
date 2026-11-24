@@ -27,18 +27,6 @@
     display: none;
 }
 
-.section-hero--main--action-link > span {
-    font-weight: 600;
-    color: var(--color-text-1);
-}
-
-.section-hero--main--action-link > svg {
-    stroke-width: 3;
-    height: 50%;
-    transform: translateX(-2px);
-    transform: translateY(-2px);
-}
-
 .section-hero--side {
     min-width: 260px;
     border-left: 1px solid var(--color-bg-3);
@@ -52,19 +40,6 @@
 
 .section-projects {
     margin-top: 54px;
-}
-
-.section-projects--title-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.section-projects--action-link > svg {
-    stroke-width: 3;
-    height: 50%;
-    transform: translateX(-2px);
-    transform: translateY(-2px);
 }
 
 .section-education-experience {
@@ -86,41 +61,12 @@
     gap: 10px;
 }
 
-.section-education--title-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 12px;
-}
-
-.section-education--action-link > svg {
-    stroke-width: 3;
-    height: 50%;
-    transform: translateX(-2px);
-    transform: translateY(-2px);
-}
-
 .section-experience {
     padding-left: 6%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
-.section-experience--title-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 12px;
-}
-
-.section-experience--action-link > svg {
-    stroke-width: 3;
-    height: 50%;
-    transform: translateX(-2px);
-    transform: translateY(-2px);
-}
-
 
 @media (max-width: 1200px) {
     .section-hero--main > h1 {
@@ -173,16 +119,8 @@
         padding-top: 18px;
     }
 
-    .section-title-bar {
-        margin-bottom: 0.4em;
-    }
-
-    .section-title-bar > h2 {
-        font-size: 1.6em !important;
-    }
-
-    .section-title-bar > a {
-        font-size: 1em !important;
+    .cmp-section-title-bar {
+        font-size: 0.8em;
     }
 }
 
@@ -243,17 +181,7 @@
         font-size: 16px;
     }
 
-
-
-    .section-title-bar {
-        margin-bottom: 0.4em;
-    }
-
-    .section-title-bar > h2 {
-        font-size: 1.2em !important;
-    }
-
-    .section-title-bar > a {
-        font-size: 0.8em !important;
+    .cmp-section-title-bar {
+        font-size: 0.6em;
     }
 }
