@@ -22,30 +22,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 16px;
 }
 
-h1 {
-    font-size: 52px;
-}
-
-h2 {
-    font-size: 38px;
-}
-
-h3 {
-    font-size: 34px;
-}
-
-h4 {
-    font-size: 30px;
-}
-
-h5 {
-    font-size: 26px;
-}
-
-h6 {
-    font-size: 22px;
-}
-
 p, a, span {
     color: var(--color-text-2);
     font-size: 20px;
@@ -78,40 +54,5 @@ ul, ol {
 @media (max-width: 1300px) {
     main {
         width: 92vw;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-        margin-bottom: 6px;
-        margin-top: 10px;
-    }
-
-    h1 {
-        font-size: 46px;
-    }
-
-    h2 {
-        font-size: 32px;
-    }
-
-    h3 {
-        font-size: 28px;
-    }
-
-    h4 {
-        font-size: 24px;
-    }
-
-    h5 {
-        font-size: 20px;
-    }
-
-    h6 {
-        font-size: 18px;
-    }
-
-    p, a {
-        font-size: 18px;
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
 }
