@@ -1,3 +1,5 @@
+/* Hero Section */
+
 .section-hero {
     display: flex;
     justify-content: space-between;
@@ -38,9 +40,15 @@
     font-size: 22px;
 }
 
+
+/* Projects Section */
+
 .section-projects {
     margin-top: 32px;
 }
+
+
+/* Section Education Experience*/
 
 .section-education-experience {
     display: flex;
