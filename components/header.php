@@ -5,10 +5,10 @@ require_once __DIR__ . '/action_link.php';
 
 function cmp_header() {
 ?>
-<header class="cmp_header">
-    <a href="/index.php" class="cmp_header__title"><h1>conor rooney</h1></a>
+<header class="cmp-header">
+    <a href="/index.php" class="cmp-header--title"><h1>conor rooney</h1></a>
 
-    <nav class="cmp_header__nav">
+    <nav class="cmp-header--nav">
         <ul>
             <li><a href="projects.php">Projects</a></li>
             <li><a href="education.php">Education</a></li>
@@ -18,7 +18,7 @@ function cmp_header() {
         </ul>
     </nav>
 
-    <?php cmp_action_link('Download CV', '../public/assets/icons/icon_download.svg', 'cv.php', 'cmp_header__download'); ?>
+    <?php cmp_action_link('Download CV', '../public/assets/icons/icon_download.svg', 'cv.php', 'cmp-header--download'); ?>
 </header>
 <?php
 }

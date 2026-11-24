@@ -1,4 +1,4 @@
-.cmp_header {
+.cmp-header {
     display: flex;
     width: 1200px;
     background-color: var(--color-bg-1);
@@ -10,19 +10,19 @@
     margin-bottom: 54px;
 }
 
-.cmp_header__title > h1 {
+.cmp-header--title > h1 {
     margin: 0;
     font-size: 28px;
     letter-spacing: 1px;
 }
 
-.cmp_header__nav {
+.cmp-header--nav {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.cmp_header__nav > ul {
+.cmp-header--nav > ul {
     display: flex;
     padding: 0;
     margin: 0;
@@ -30,13 +30,13 @@
     align-items: center;
 }
 
-.cmp_header__nav > ul > li > a {
+.cmp-header--nav > ul > li > a {
     font-size: 18px;
 }
 
 
 @media (max-width: 1300px) {
-    .cmp_header {
+    .cmp-header {
         width: 92vw;
     }
 }
@@ -44,57 +44,57 @@
 
 @media (max-width: 1150px) {
 
-    .cmp_header__nav > ul {
+    .cmp-header--nav > ul {
         gap: 30px;
     }
-    .cmp_header__nav > ul > li > a {
+    .cmp-header--nav > ul > li > a {
         font-size: 16px;
     }
 }
 
 
 @media (max-width: 1000px) {
-    .cmp_header {
+    .cmp-header {
         height: 60px;
         margin-bottom: 30px;
     }
-    .cmp_header__title > h1 {
+    .cmp-header--title > h1 {
         font-size: 20px;
     }
 
-    .cmp_header__nav > ul > li > a {
+    .cmp-header--nav > ul > li > a {
         font-size: 14px;
     }
 
-    .cmp_header__download > span {
+    .cmp-header--download > span {
         font-size: 15px;
     }
 }
 
 
 @media (max-width: 800px) {
-    .cmp_header__nav {
+    .cmp-header--nav {
         display: none;
     }
 
-    .cmp_header__download {
+    .cmp-header--download {
         display: none !important;
     }
 
-    .cmp_header__title {
+    .cmp-header--title {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
     }
 
-    .cmp_header__title > h1 {
+    .cmp-header--title > h1 {
         font-size: 26px;
         white-space: nowrap;
     }
 }
 
 @media (max-width: 450px) {
-    .cmp_header {
+    .cmp-header {
         margin-bottom: 2px;
     }
 }

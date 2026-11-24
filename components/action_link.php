@@ -8,7 +8,7 @@ require_once __DIR__ . '/svg_icon.php';
 function cmp_action_link($text, $icon_path, $link, $class) {
     ?>
 
-    <a class="cmp_action_link <?php echo htmlspecialchars($class) ?>" href="<?php echo htmlspecialchars($link) ?>">
+    <a class="cmp-action-link <?php echo htmlspecialchars($class) ?>" href="<?php echo htmlspecialchars($link) ?>">
         <span><?php echo htmlspecialchars($text) ?></span>
 
         <?php

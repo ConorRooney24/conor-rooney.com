@@ -159,22 +159,22 @@
         font-size: 16px;
     }
 
-    .cmp_status_label__text {
+    .cmp-status-label--text {
         font-size: 12px;
     }
 
-    .cmp_status_label__dot {
+    .cmp-status-label--dot {
         height: 6px;
         width: 6px;
         transform: translateY(-1px);
     }
 
-    .cmp_status_label {
+    .cmp-status-label {
         gap: 6px;
         margin-bottom: 12px !important;
     }
 
-    .cmp_status_label > span {
+    .cmp-status-label > span {
         letter-spacing: 1px;
     }
 }

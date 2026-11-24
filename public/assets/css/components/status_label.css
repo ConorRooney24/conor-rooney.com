@@ -11,13 +11,13 @@
 }
 
 
-.cmp_status_label {
+.cmp-status-label {
     display: inline-flex;
     align-items: center;
     gap: 8px;
 }
 
-.cmp_status_label__dot {
+.cmp-status-label--dot {
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -28,7 +28,7 @@
     animation: pulse 4s ease-in-out infinite;
 }
 
-.cmp_status_label__text {
+.cmp-status-label--text {
     font-size: 14px;
     color: var(--color-text-3);
     letter-spacing: 2px;

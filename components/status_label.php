@@ -4,9 +4,9 @@ register_css('components/status_label.css');
 
 function cmp_status_label($text) {
 ?>
-<span class="cmp_status_label">
-    <span class="cmp_status_label__dot"></span>
-    <span class="cmp_status_label__text"><?php echo htmlspecialchars($text) ?></span>
+<span class="cmp-status-label">
+    <span class="cmp-status-label--dot"></span>
+    <span class="cmp-status-label--text"><?php echo htmlspecialchars($text) ?></span>
 </span>
 
 <?php
