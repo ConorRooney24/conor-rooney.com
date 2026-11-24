@@ -1,0 +1,144 @@
+/* Hero Section */
+
+.sec-hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-hero--main > span {
+    margin-bottom: 12px;
+}
+
+.sec-hero--main > h1 {
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: -10px;
+    letter-spacing: 1px;
+}
+
+.sec-hero--main > p {
+    font-size: 22px;
+}
+
+.sec-hero--main > div {
+    display: flex;
+    gap: 38px;
+}
+
+.sec-hero--main > div > .cmp-button-icon {
+    display: none;
+}
+
+.sec-hero--side {
+    min-width: 260px;
+    border-left: 1px solid var(--color-bg-3);
+    padding-left: 34px;
+    margin-left: 160px;
+}
+
+.sec-hero--side > p {
+    font-size: 22px;
+}
+
+@media (max-width: 1200px) {
+    .sec-hero--main > h1 {
+        font-size: 50px;
+        margin-bottom: -10px;
+        letter-spacing: 1px;
+    }
+
+    .sec-hero--main > p {
+        font-size: 20px;
+    }
+
+    .sec-hero--main > span {
+        margin: 0;
+    }
+
+    .sec-hero--side > p {
+        font-size: 20px;
+    }
+
+    .sec-hero--side {
+        padding-left: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .sec-hero--side {
+        display: none;
+    }
+
+    .sec-hero--main {
+        margin-right: 20vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .sec-hero--main > div > .cmp-button-icon {
+        display: inline-flex;
+    }
+
+    .sec-hero--main--action-link {
+        display: none;
+    }
+
+    .sec-hero--main > div {
+        padding-top: 18px;
+    }
+}
+
+@media (max-width: 850px) {
+    .sec-hero--main {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .sec-hero--main > h1 {
+        font-size: 40px;
+    }
+
+    .sec-hero--main > p {
+        margin-top: 16px;
+        font-size: 18px;
+    }
+
+    .sec-hero--main > div {
+        padding-top: 8px;
+    }
+
+    .sec-hero--main > div > .cmp-button-icon {
+        font-size: 16px;
+    }
+
+    .cmp-status-label--text {
+        font-size: 12px;
+    }
+
+    .cmp-status-label--dot {
+        height: 6px;
+        width: 6px;
+        transform: translateY(-1px);
+    }
+
+    .cmp-status-label {
+        gap: 6px;
+        margin-bottom: 12px !important;
+    }
+
+    .cmp-status-label > span {
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 475px) {
+    .sec-hero--main > h1 {
+        font-size: 30px;
+    }
+
+    .sec-hero--main > p {
+        font-size: 16px;
+    }
+}
