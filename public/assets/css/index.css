@@ -173,15 +173,15 @@
         padding-top: 18px;
     }
 
-    .section-projects--title-bar {
+    .section-title-bar {
         margin-bottom: 0.4em;
     }
 
-    .section-projects--title-bar > h2 {
+    .section-title-bar > h2 {
         font-size: 1.6em !important;
     }
 
-    .section-projects--action-link {
+    .section-title-bar > a {
         font-size: 1em !important;
     }
 }
@@ -245,16 +245,15 @@
 
 
 
-    .section-projects--title-bar {
+    .section-title-bar {
         margin-bottom: 0.4em;
     }
 
-    .section-projects--title-bar > h2 {
+    .section-title-bar > h2 {
         font-size: 1.2em !important;
     }
 
-    .section-projects--action-link {
+    .section-title-bar > a {
         font-size: 0.8em !important;
     }
-
 }

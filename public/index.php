@@ -49,7 +49,7 @@ register_css('index.css');
         </section>
 
         <section class="section-projects">
-            <div class="section-projects--title-bar">
+            <div class="section-projects--title-bar section-title-bar">
                 <h2>Selected Projects</h2>
                 <?php cmp_action_link('All Projects', 'assets/icons/icon_arrow_up_right.svg', '/projects.php', 'section-projects--action-link') ?>
             </div>
@@ -64,7 +64,7 @@ register_css('index.css');
         <section class="section-education-experience">
 
             <section class="section-education">
-                <div class="section-education--title-bar">
+                <div class="section-education--title-bar section-title-bar">
                     <h2>Education</h2>
                     <?php cmp_action_link('All Education', 'assets/icons/icon_arrow_up_right.svg', '/education.php', 'section-education--action-link') ?>
                 </div>
@@ -74,7 +74,7 @@ register_css('index.css');
             </section>
 
             <section class="section-experience">
-                <div class="section-experience--title-bar">
+                <div class="section-experience--title-bar section-title-bar">
                     <h2>Experience</h2>
                     <?php cmp_action_link('All Experience', 'assets/icons/icon_arrow_up_right.svg', '/experience.php', 'section-experience--action-link') ?>
                 </div>
