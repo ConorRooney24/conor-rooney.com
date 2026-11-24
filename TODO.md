@@ -1,1 +1,0 @@
-- figure out a new animation for hovering over the experience cards. current one is off.
