@@ -9,7 +9,7 @@
 
 .cmp-action-link > span {
     white-space: nowrap;
-    color: var(--color-accent-1);
+    color: inherit;
     font-size: 1em;
 }
 
