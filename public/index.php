@@ -3,6 +3,7 @@ require_once __DIR__ . '/../helpers/css_registrar.php';
 register_css('global.css');
 require_once __DIR__ . '/../components/header.php';
 require_once __DIR__ . '/../components/mobile_nav.php';
+require_once __DIR__ . '/../components/notification.php';
 require_once __DIR__ . '/../sections/hero.php';
 require_once __DIR__ . '/../sections/projects.php';
 require_once __DIR__ . '/../sections/education_experience.php';
@@ -29,7 +30,7 @@ register_css('index.css');
     <main>
         <?php sec_hero(); ?>
         <?php sec_projects(); ?>
-
+        <?php cmp_notification(title: 'Work In Progress.', description: 'This website is still a work in progress. Many features are missing. The latest changes and progress can be seen on my GitHub.'); ?>
         <?php sec_education_experience(); ?>
     </main>
 
