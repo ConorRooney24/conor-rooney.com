@@ -1,7 +1,10 @@
 <?php
 require_once __DIR__ . '/../helpers/css_registrar.php';
-require_once __DIR__ . '/svg_icon.php';
 register_css('components/notification.css');
+require_once __dir__ . '/../helpers/js_registrar.php';
+register_js('notification.js');
+require_once __DIR__ . '/svg_icon.php';
+
 
 function cmp_notification($title = 'Title', $description = 'description') {
 ?>

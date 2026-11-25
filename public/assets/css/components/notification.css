@@ -17,6 +17,11 @@
     display: inline-flex;
     flex-direction: column;
     gap: 0.4em;
+    transition: 0.05s ease-in;
+}
+
+.cmp-notification--closing {
+    opacity: 0;
 }
 
 .cmp-notification > svg {
