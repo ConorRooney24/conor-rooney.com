@@ -21,14 +21,14 @@ function cmp_footer() {
 
     <nav class="cmp-footer--nav">
         <div>
-            <h3>Navigation</h3>
+            <h3 class="cmp-footer--nav--navigation">Navigation</h3>
             <ul>
                 <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', 'sec-hero--main--action-link') ?></li>
                 <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', 'sec-hero--main--action-link') ?></li>
                 <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', 'sec-hero--main--action-link') ?></li>
             </ul>
         </div>
-        <div>
+        <div class="cmp-footer--nav--resources">
             <h3>Resources</h3>
             <ul>
                 <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', 'sec-hero--main--action-link') ?></li>
