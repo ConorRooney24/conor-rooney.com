@@ -5,7 +5,7 @@ register_css('components/notification.css');
 
 function cmp_notification($title = 'Title', $description = 'description') {
 ?>
-<div class="cmp-notification">
+<div id="cmp-notification" class="cmp-notification">
     <?php cmp_svg_icon('assets/icons/icon_x.svg') ?>
     <p class="cmp-notification--title"><?php echo htmlspecialchars($title) ?></p>
     <p><?php echo htmlspecialchars($description) ?></p>
