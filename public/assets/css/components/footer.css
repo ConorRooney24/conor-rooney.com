@@ -1,0 +1,108 @@
+.cmp-footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 48px;
+    border-top: 1px solid var(--color-bg-3);
+    font-size: 1.2em;
+}
+
+.cmp-footer--bio {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.cmp-footer--bio--info {
+    width: 18em;
+    font-size: 1em;
+}
+
+
+.cmp-footer--bio--info--name {
+    font-weight: 600;
+    color: var(--color-text-1);
+    font-size: 1.4em;
+    margin: 0;
+    margin-bottom: 0.6em;
+}
+
+.cmp-footer--bio--info--description {
+    font-size: 1em;
+    margin: 0;
+}
+
+.cmp-footer--bio--socials {
+    display: flex;
+    gap: 0.5em;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.8em;
+}
+
+.cmp-footer--bio--socials > li > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em;
+    border-radius: 50%;
+}
+
+.cmp-footer--bio--socials > li > a:hover {
+    background-color: var(--color-bg-3);
+}
+
+.cmp-footer--bio--socials > li > a > svg {
+    display: block;
+    width: 1.8em;
+    height: 1.8em;
+}
+.cmp-footer--nav {
+    display: flex;
+    gap: 4em;
+    border-left: 1px solid var(--color-bg-3);
+    padding-left: 1.2em;
+}
+
+.cmp-footer--nav > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+}
+
+.cmp-footer--nav > div > h3 {
+    font-weight: 600;
+    font-size: 1.4em;
+    margin: 0;
+    color: var(--color-text-1);
+}
+
+.cmp-footer--nav > div > ul {
+    padding: 0;
+    margin: 0;
+}
+
+.cmp-footer--nav > div > ul > li > a {
+    color: var(--color-text-2);
+    font-size: 1em;
+}
+
+.cmp-footer--version {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    margin-left: auto;
+    width: 12em;
+    gap: 1em;
+    padding-left: 1.2em;
+    border-left: 1px solid var(--color-bg-3);
+}
+
+
+.cmp-footer--version > p {
+    margin: 0;
+    font-size: 1em;
+}

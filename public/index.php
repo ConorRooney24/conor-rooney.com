@@ -2,6 +2,7 @@
 require_once __DIR__ . '/../helpers/css_registrar.php';
 register_css('global.css');
 require_once __DIR__ . '/../components/header.php';
+require_once __DIR__ . '/../components/footer.php';
 require_once __DIR__ . '/../components/mobile_nav.php';
 require_once __DIR__ . '/../components/notification.php';
 require_once __DIR__ . '/../sections/hero.php';
@@ -34,5 +35,6 @@ register_css('index.css');
         <?php sec_education_experience(); ?>
     </main>
 
+    <?php cmp_footer() ?>
     <?php cmp_mobile_nav() ?>
 </body>
