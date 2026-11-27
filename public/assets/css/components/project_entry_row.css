@@ -81,18 +81,14 @@
     .cmp-project-entry-row {
         flex-direction: column;
         gap: 0.4em;
+        font-size: 3.8vw;
     }
 
     .cmp-project-entry-row--header {
         width: 100%;
-        font-size: 4vw;
     }
 
     .cmp-project-entry-row-title {
         margin: 1em;
-    }
-
-    .cmp-project-entry-row--content {
-        font-size: 3.4vw;
     }
 }
