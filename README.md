@@ -2,9 +2,7 @@
 
 This repository contains the source code for my personal portfolio website. It is built with PHP, HTML, CSS, and a small amount of JavaScript, with reusable PHP components shared across pages.
 
-![Website Mobile Preview](./mobile_preview.png)
-![Website Desktop Preview](./desktop_preview.png)
-
+![Website Preview](./preview.png)
 
 ## Project structure
 
