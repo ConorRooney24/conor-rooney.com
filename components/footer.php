@@ -13,9 +13,9 @@ function cmp_footer() {
             <p class="cmp-footer--bio--info--description">Computer Science stutent at Queen's University Belfast.</p>
         </div>
         <ul class="cmp-footer--bio--socials">
-            <li><a href=""><?php cmp_svg_icon('assets/icons/icon_github.svg') ?></a></li>
-            <li><a href=""><?php cmp_svg_icon('assets/icons/icon_github.svg') ?></a></li>
-            <li><a href=""><?php cmp_svg_icon('assets/icons/icon_github.svg') ?></a></li>
+            <li><a href="https://github.com/ConorRooney24"><?php cmp_svg_icon('assets/icons/icon_github.svg') ?></a></li>
+            <li><a href="https://www.linkedin.com/in/conor-rooney-84bb50414"><?php cmp_svg_icon('assets/icons/icon_linkedin.svg') ?></a></li>
+            <li><a href="https://leetcode.com/u/conorrooney24"><?php cmp_svg_icon('assets/icons/icon_leetcode.svg') ?></a></li>
         </ul>
     </div>
 
@@ -23,17 +23,17 @@ function cmp_footer() {
         <div>
             <h3 class="cmp-footer--nav--navigation">Navigation</h3>
             <ul>
-                <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', '') ?></li>
-                <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', '') ?></li>
-                <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', '') ?></li>
+                <li><?php cmp_action_link('Projects', '', '/projects.php', '') ?></li>
+                <li><?php cmp_action_link('Education', '', '/education.php', '') ?></li>
+                <li><?php cmp_action_link('Contact', '', '/contact.php', '') ?></li>
             </ul>
         </div>
         <div class="cmp-footer--nav--resources">
             <h3>Resources</h3>
             <ul>
                 <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', '') ?></li>
-                <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', '') ?></li>
-                <li><?php cmp_action_link('GitHub', 'assets/icons/icon_arrow_up_right.svg', 'https://github.com/ConorRooney24', '') ?></li>
+                <li><?php cmp_action_link('LinkedIn', 'assets/icons/icon_arrow_up_right.svg', 'https://www.linkedin.com/in/conor-rooney-84bb50414', '') ?></li>
+                <li><?php cmp_action_link('Download CV', 'assets/icons/icon_download.svg', '/cv.php', '') ?></li>
             </ul>
         </div>
     </nav>
