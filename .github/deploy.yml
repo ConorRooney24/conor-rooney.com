@@ -1,0 +1,23 @@
+name: Deploy website
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    name: Deploy release to server
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy release
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          script: |
+            /usr/local/bin/deploy-website "${{ github.event.release.tag_name }}"
