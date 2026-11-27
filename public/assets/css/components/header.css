@@ -4,15 +4,15 @@
     background-color: var(--color-bg-1);
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 5em;
     margin-right: auto;
     margin-left:auto;
-    margin-bottom: 48px;
+    margin-bottom: 3em;
 }
 
 .cmp-header--title > p {
     margin: 0;
-    font-size: 28px;
+    font-size: 1.75em;
     letter-spacing: 1px;
     font-weight: 600;
     color: var(--color-text-1);
@@ -29,12 +29,12 @@
     display: flex;
     padding: 0;
     margin: 0;
-    gap: 40px;
+    gap: 2.5em;
     align-items: center;
 }
 
 .cmp-header--nav > ul > li > a {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 
@@ -48,31 +48,31 @@
 @media (max-width: 1150px) {
 
     .cmp-header--nav > ul {
-        gap: 30px;
+        gap: 1.875em;
     }
     .cmp-header--nav > ul > li > a {
-        font-size: 16px;
+        font-size: 1em;
     }
 }
 
 
 @media (max-width: 1000px) {
     .cmp-header {
-        height: 60px;
-        margin-bottom: 28px;
+        height: 3.75em;
+        margin-bottom: 1.75em;
     }
     .cmp-header--title > p {
-        font-size: 22px;
+        font-size: 1.375em;
     }
     .cmp-header--download {
-        font-size: 18px;
+        font-size: 1.125em;
     }
 }
 
 
 @media (max-width: 800px) {
     .cmp-header {
-        margin-bottom: 16px;
+        margin-bottom: 1em;
     }
 
     .cmp-header--nav {
@@ -90,13 +90,19 @@
     }
 
     .cmp-header--title > p {
-        font-size: 32px;
+        font-size: 2em;
         white-space: nowrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .cmp-header {
+        font-size: 3.4vw;
     }
 }
 
 @media (max-width: 450px) {
     .cmp-header {
-        margin-bottom: 16px;
+        margin-bottom: 0;
     }
 }
