@@ -15,6 +15,7 @@
     border-radius: 0.5em;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 1.25em;
 }
 
 
@@ -101,4 +102,10 @@
         display: none;
     }
 
+}
+
+@media (max-width: 600px) {
+    .cmp-experience-card {
+        font-size: 3.6vw;
+    }
 }
