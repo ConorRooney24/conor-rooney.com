@@ -7,7 +7,7 @@
     height: 80px;
     margin-right: auto;
     margin-left:auto;
-    margin-bottom: 54px;
+    margin-bottom: 48px;
 }
 
 .cmp-header--title > p {
@@ -16,6 +16,7 @@
     letter-spacing: 1px;
     font-weight: 600;
     color: var(--color-text-1);
+    white-space: nowrap;
 }
 
 .cmp-header--nav {
@@ -58,23 +59,22 @@
 @media (max-width: 1000px) {
     .cmp-header {
         height: 60px;
-        margin-bottom: 30px;
+        margin-bottom: 28px;
     }
-    .cmp-header--title > h1 {
-        font-size: 20px;
+    .cmp-header--title > p {
+        font-size: 22px;
     }
-
-    .cmp-header--nav > ul > li > a {
-        font-size: 14px;
-    }
-
-    .cmp-header--download > span {
-        font-size: 15px;
+    .cmp-header--download {
+        font-size: 18px;
     }
 }
 
 
 @media (max-width: 800px) {
+    .cmp-header {
+        margin-bottom: 16px;
+    }
+
     .cmp-header--nav {
         display: none;
     }
@@ -89,14 +89,14 @@
         transform: translateX(-50%);
     }
 
-    .cmp-header--title > h1 {
-        font-size: 26px;
+    .cmp-header--title > p {
+        font-size: 32px;
         white-space: nowrap;
     }
 }
 
 @media (max-width: 450px) {
     .cmp-header {
-        margin-bottom: 2px;
+        margin-bottom: 16px;
     }
 }
