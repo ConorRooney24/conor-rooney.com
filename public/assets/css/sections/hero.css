@@ -3,14 +3,19 @@
 .sec-hero {
     display: flex;
     justify-content: space-between;
+    font-size: 1em;
 }
 
-.sec-hero--main > span {
-    margin-bottom: 12px;
+.sec-hero--main {
+    font-size: 1em;
+}
+
+.sec-hero--main > .cmp-status-label {
+    margin-bottom: 0.8em;
 }
 
 .sec-hero--main > h1 {
-    font-size: 60px;
+    font-size: 3.75em;
     margin: 0;
     margin-bottom: -10px;
     letter-spacing: 1px;
@@ -23,6 +28,7 @@
 .sec-hero--main > div {
     display: flex;
     gap: 38px;
+    font-size: 1.2em;
 }
 
 .sec-hero--main > div > .cmp-button-icon {
@@ -42,17 +48,13 @@
 
 @media (max-width: 1200px) {
     .sec-hero--main > h1 {
-        font-size: 50px;
+        font-size: 3.12em;
         margin-bottom: -10px;
         letter-spacing: 1px;
     }
 
     .sec-hero--main > p {
         font-size: 20px;
-    }
-
-    .sec-hero--main > span {
-        margin: 0;
     }
 
     .sec-hero--side > p {
@@ -62,6 +64,10 @@
     .sec-hero--side {
         padding-left: 30px;
         margin-left: 50px;
+    }
+
+    .sec-hero--main > .cmp-status-label {
+        font-size: 0.9em;
     }
 }
 
@@ -75,70 +81,48 @@
     }
 }
 
-@media (max-width: 800px) {
-    .sec-hero--main > div > .cmp-button-icon {
-        display: inline-flex;
-    }
-
-    .sec-hero--main--action-link {
-        display: none;
-    }
-
-    .sec-hero--main > div {
-        padding-top: 18px;
-    }
-}
-
 @media (max-width: 850px) {
     .sec-hero--main {
         margin-right: 0;
     }
 }
 
+@media (max-width: 800px) {
+    .sec-hero--main > div > .cmp-button-icon {
+        display: inline-flex;
+    }
+
+    .sec-hero--main > div {
+        padding-top: 18px;
+        align-items: center;
+        font-size: 1.3em;
+    }
+
+    .sec-hero--main > .cmp-status-label {
+        margin-bottom: 0;
+    }
+}
+
 @media (max-width: 600px) {
     .sec-hero--main > h1 {
-        font-size: 40px;
+        font-size: 8vw;
     }
 
     .sec-hero--main > p {
-        margin-top: 16px;
-        font-size: 18px;
+        margin-top: 1em;
+        font-size: 4vw;
     }
 
     .sec-hero--main > div {
         padding-top: 8px;
+        gap: 1.2em;
+        font-size: 3.6vw;
     }
 
-    .sec-hero--main > div > .cmp-button-icon {
-        font-size: 16px;
-    }
 
-    .cmp-status-label--text {
-        font-size: 12px;
-    }
-
-    .cmp-status-label--dot {
-        height: 6px;
-        width: 6px;
-        transform: translateY(-1px);
-    }
-
-    .cmp-status-label {
-        gap: 6px;
-        margin-bottom: 12px !important;
-    }
-
-    .cmp-status-label > span {
-        letter-spacing: 1px;
+    .sec-hero--main > .cmp-status-label {
+        font-size: 2.4vw;
+        margin-bottom: 1em;
     }
 }
 
-@media (max-width: 475px) {
-    .sec-hero--main > h1 {
-        font-size: 30px;
-    }
-
-    .sec-hero--main > p {
-        font-size: 16px;
-    }
-}
