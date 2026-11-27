@@ -39,7 +39,7 @@ function cmp_footer() {
     </nav>
 
     <div class="cmp-footer--version">
-        <?php cmp_status_label('V1.0.0') ?>
+        <?php cmp_status_label('V' . trim(file_get_contents(__DIR__ . '/../VERSION'))) ?>
         <p>© 2026 Conor Rooney. All Rights Reserved.</p>
     </div>
 </footer>
