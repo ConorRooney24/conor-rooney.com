@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.0.1] - 2026-11-27
+## [0.0.2] - 2026-11-27
 
 ### Added
 - Automated deployment through github actions.
