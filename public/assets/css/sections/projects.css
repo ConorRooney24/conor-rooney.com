@@ -3,3 +3,9 @@
 .sec-projects {
     margin-top: 32px;
 }
+
+@media (max-width: 600px) {
+    .sec-projects {
+        margin-top: 6vw;
+    }
+}

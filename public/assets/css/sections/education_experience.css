@@ -30,6 +30,7 @@
     .sec-education-experience {
         flex-direction: column;
         gap: 1em;
+        margin-top: 6vw;
     }
 
     .sec-education-experience > section {
